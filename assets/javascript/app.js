@@ -297,6 +297,8 @@ $.ajax({
 }).done(function(response) {
 
   console.log(response);
+  //create array to store random indexes already used to avoid repeats
+  //start with an empty array each time an ajax call is made
   var indexUsed = [];
 
   for (var i =1; i <= 10; i++) {
@@ -315,10 +317,8 @@ $.ajax({
       // keep getting randomIndex until it is not a match
       while (indexUsed.indexOf(randomIndex) !== -1){
         randomIndex = Math.floor(Math.random() * response.items.length);
-      }// end of while randomIndex has already been used  
+      }// end of while randomIndex has already been used
 
-      console.log("randomIndex 2nd time:" + randomIndex);
-      console.log("indexUsed 2nd time:" + indexUsed);  
     } // end of else randomIndex has been used  
     
     var bookDisplayed = $("<img>")

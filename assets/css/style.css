@@ -125,7 +125,7 @@ h2 {
 	margin: 0px 5px 30px 5px;
 }
 
-/* Styling for book information */
+/* Styling for book information under each title */
 #bookResults h5,p {	
 	text-align: center;
 	position: relative;
@@ -148,6 +148,7 @@ h2 {
 	text-align: left;
 }
 
+/* styling for link to preview */
 .modal-body a {
 	font-family: "Special Elite", serif;
 	background-color: #2290BA;

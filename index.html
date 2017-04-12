@@ -56,8 +56,7 @@
 
     	</div> <!--end of form-group row-->
 
-<!--form and movieChosen will only be shown one at a time-->
-
+        <!-- movieChosenDiv will be shown once a movie has been clicked-->
     		<div id="movieChosenDiv">
     			<h2>Your movie is: <br><span id="movieChosen">chosen movie title here</span></h2>
     		</div>
@@ -66,7 +65,7 @@
 
 	</header>
 
-<div class="container" id="wrap"> <!--leave this under header/at top of page to keep sticky footer in place-->
+  <div class="container" id="wrap"> <!--leave this under header/at top of page to keep sticky footer in place-->
 
 <!-- Movie Results will display here-->
   <div class="row" id="movieResults">
@@ -76,9 +75,7 @@
 	<div id="bookResults">
 
 		<h2>Try One of These!</h2>
-      <h4 id="clickOnBook">
-        (Click on a book for more info)
-      </h4>
+    <h4 id="clickOnBook">(Click on a book for more info)</h4>
 
 		<div class="row" id="row1">
 
@@ -87,7 +84,7 @@
 
 				<div id="book1" class="hovereffect">
                                     
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book1 div-->
 
 				<!--modal1-->
 				<div class="modal fade" id="moreInfo1" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -122,7 +119,7 @@
 
         <div id="book2" class="hovereffect">
 
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book2 div-->
 
         <!--modal2-->
         <div class="modal fade" id="moreInfo2" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -157,7 +154,7 @@
 
         <div id="book3" class="hovereffect">
 
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book3 div-->
 
         <!--modal3-->
         <div class="modal fade" id="moreInfo3" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -192,7 +189,7 @@
 
         <div id="book4" class="hovereffect">
 
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book4 div-->
 
         <!--modal4-->
         <div class="modal fade" id="moreInfo4" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -227,7 +224,7 @@
 
         <div id="book5" class="hovereffect">
          
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book5 div-->
 
         <!--modal5-->
         <div class="modal fade" id="moreInfo5" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -267,7 +264,7 @@
 
         <div id="book6" class="hovereffect">
 
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book6 div-->
 
         <!--modal6-->
         <div class="modal fade" id="moreInfo6" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -302,7 +299,7 @@
 
         <div id="book7" class="hovereffect">
          
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book7 div-->
 
         <!--modal7-->
         <div class="modal fade" id="moreInfo7" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -337,7 +334,7 @@
 
         <div id="book8" class="hovereffect">
           
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book8 div-->
 
         <!--modal8-->
         <div class="modal fade" id="moreInfo8" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -372,7 +369,7 @@
 
         <div id="book9" class="hovereffect">
           
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book9 div-->
 
         <!--modal9-->
         <div class="modal fade" id="moreInfo9" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -407,7 +404,7 @@
 
         <div id="book10" class="hovereffect">
          
-        </div> <!--end of hovereffect div-->
+        </div> <!--end of #book10 div-->
 
         <!--modal10-->
         <div class="modal fade" id="moreInfo10" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
@@ -441,7 +438,7 @@
 
 	</div> <!--end of book result -->
 
-  <!-- Begin Recent Search div -->
+  <!-- Recent Search div -->
 	<div id="recentSearches">
 
     <h2 id="recent-search-text">
@@ -454,7 +451,7 @@
         <!-- Input from JS only -->
       </div> <!-- end of most recent posters div -->
 
-		</div> <!--end of carousel row div-->
+		</div> <!--end of recent movie row div-->
 	</div><!--end of recentSearches div-->
 
   <!-- End of page container #wrap -->
@@ -470,9 +467,11 @@
 
 <!-- jQuery Link --> 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 <!-- JS Reference(s) -->
 <script src="assets/javascript/app.js"></script>
 <script src="assets/javascript/display.js"></script>
+
 </body>
 
 </html>
