@@ -242,6 +242,12 @@ html, body {
 		margin: 20px 100px;
 	}
 
+	/* Centers images in rows on tablet page size */
+	#row1, #row2, #movieResults {
+		display: inline;
+		text-align: center;
+	}
+
 
 /*-----------------------------------------------------------------*/
 /* Width at 640px (Cell Phone) and below */
@@ -252,7 +258,7 @@ html, body {
 		margin: 20px 40px;
 	}
 
-	/* Centers images in rows on smallest page size */
+	/* Centers images in rows on smallest (cell phone) page size */
 	#row1, #row2, #movieResults {
 		display: inline;
 		text-align: center;
